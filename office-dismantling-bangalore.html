@@ -11,6 +11,16 @@
 <meta property="og:title" content="Office Dismantling Services in Bangalore – Ubigtus Solutions">
 <meta property="og:description" content="Professional end-to-end office dismantling in Bangalore. Free site visit. Best rates. Call +91 90668 98926.">
 <meta property="og:url" content="https://ubigtus.com/office-dismantling-bangalore">
+<meta property="og:image" content="https://ubigtus.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Office Dismantling Services Bangalore – Ubigtus Solutions">
+<meta name="twitter:description" content="Professional office dismantling contractors in Bangalore. Free site visit. Best rates. Call +91 90668 98926.">
+<meta name="twitter:image" content="https://ubigtus.com/og-image.jpg">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#00c46a">
 <meta name="geo.region" content="IN-KA">
 <meta name="geo.placename" content="Bengaluru, Karnataka, India">
 <script type="application/ld+json">
@@ -202,7 +212,7 @@ footer{background:#060806;padding:40px 8%;display:flex;justify-content:space-bet
       <div class="logo-sub">Solutions</div>
     </div>
   </a>
-  <a href="/#contact" class="nav-cta">Get Free Quote</a>
+  <a href="/#contact" class="nav-cta" aria-label="Get Free Quote for Office Dismantling">Get Free Quote</a>
 </nav>
 
 <!-- HERO -->
@@ -386,7 +396,7 @@ footer{background:#060806;padding:40px 8%;display:flex;justify-content:space-bet
 </div>
 
 <footer>
-  <div style="font-size:0.8rem;color:var(--muted);">© 2025 Ubigtus Solutions · <a href="/">ubigtus.com</a> · Bengaluru</div>
+  <div style="font-size:0.8rem;color:var(--muted);">© 2026 Ubigtus Solutions · <a href="/">ubigtus.com</a> · Bengaluru</div>
   <div class="footer-links">
     <a href="/">Home</a>
     <a href="/office-dismantling-bangalore">Office Dismantling</a>
@@ -397,7 +407,7 @@ footer{background:#060806;padding:40px 8%;display:flex;justify-content:space-bet
 
 <!-- Float buttons -->
 <div class="float-btns">
-  <a href="https://wa.me/919066898926" class="fb-btn fb-wa">💬 WhatsApp</a>
+  <a href="https://wa.me/919066898926" class="fb-btn fb-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
   <a href="tel:+919066898926" class="fb-btn fb-call">📞 Call Now</a>
 </div>
 
@@ -426,7 +436,7 @@ document.getElementById('dismantlingForm').addEventListener('submit', function(e
   };
   const waMsg = encodeURIComponent(`📋 Office Dismantling Enquiry\n\nName: ${formData.from_name}\nMobile: ${formData.mobile}\nCompany: ${formData.company}\nLocation: ${formData.location}\nSize: ${formData.office_size}\nMessage: ${formData.message}`);
   try { emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, formData); } catch(e) {}
-  window.open(`https://wa.me/919066898926?text=${waMsg}`, '_blank');
+  window.open(`https://wa.me/919066898926?text=${waMsg}`, '_blank', 'noopener,noreferrer');
   document.getElementById('dismantlingForm').innerHTML = '<div style="padding:40px 0;text-align:center;"><div style="font-size:2rem;color:#00c46a;font-weight:700;margin-bottom:8px;">✓ Request Received</div><div style="color:#6b7a72;">We will call you within 2 hours.</div></div>';
 });
 

@@ -11,6 +11,16 @@
 <meta property="og:title" content="Scrap Buyers in Bangalore – Best Rates | Ubigtus Solutions">
 <meta property="og:description" content="IT scrap, e-waste, furniture, UPS & battery scrap buyers in Bangalore. Best market rates. Free pickup. Call +91 90668 98926.">
 <meta property="og:url" content="https://ubigtus.com/scrap-buyers">
+<meta property="og:image" content="https://ubigtus.com/og-scrap.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Scrap Buyers in Bangalore – Best Rates | Ubigtus Solutions">
+<meta name="twitter:description" content="IT scrap, e-waste, furniture, UPS & battery scrap buyers in Bangalore. Best market rates. Free pickup. Call +91 90668 98926.">
+<meta name="twitter:image" content="https://ubigtus.com/og-scrap.jpg">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#00c46a">
 <meta name="geo.region" content="IN-KA">
 <meta name="geo.placename" content="Bengaluru, Karnataka, India">
 <script type="application/ld+json">
@@ -349,7 +359,7 @@ footer{background:#060806;padding:40px 8%;display:flex;justify-content:space-bet
 </div>
 
 <footer>
-  <div style="font-size:0.8rem;color:var(--muted);">© 2025 Ubigtus Solutions · <a href="/">ubigtus.com</a> · Bengaluru</div>
+  <div style="font-size:0.8rem;color:var(--muted);">© 2026 Ubigtus Solutions · <a href="/">ubigtus.com</a> · Bengaluru</div>
   <div class="footer-links">
     <a href="/">Home</a>
     <a href="/office-dismantling-bangalore">Office Dismantling</a>
@@ -359,7 +369,7 @@ footer{background:#060806;padding:40px 8%;display:flex;justify-content:space-bet
 </footer>
 
 <div class="float-btns">
-  <a href="https://wa.me/919066898926" class="fb-btn fb-wa">💬 WhatsApp</a>
+  <a href="https://wa.me/919066898926" class="fb-btn fb-wa" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
   <a href="tel:+919066898926" class="fb-btn fb-call">📞 Call Now</a>
 </div>
 
@@ -388,7 +398,7 @@ document.getElementById('scrapForm').addEventListener('submit', function(e) {
   };
   const waMsg = encodeURIComponent(`📋 Scrap Buying Enquiry\n\nName: ${formData.from_name}\nMobile: ${formData.mobile}\nCompany: ${formData.company}\nType: ${formData.project_type}\nLocation: ${formData.location}\nDetails: ${formData.message}`);
   try { emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, formData); } catch(e) {}
-  window.open(`https://wa.me/919066898926?text=${waMsg}`, '_blank');
+  window.open(`https://wa.me/919066898926?text=${waMsg}`, '_blank', 'noopener,noreferrer');
   document.getElementById('scrapForm').innerHTML = '<div style="padding:40px 0;text-align:center;"><div style="font-size:2rem;color:#00c46a;font-weight:700;margin-bottom:8px;">✓ Request Received</div><div style="color:#6b7a72;">We will call you within 2 hours with the best rate.</div></div>';
 });
 
