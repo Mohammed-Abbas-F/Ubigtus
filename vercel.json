@@ -1,7 +1,22 @@
 {
-  "rewrites": [
-    { "source": "/office-dismantling-bangalore", "destination": "/office-dismantling-bangalore.html" },
-    { "source": "/scrap-buyers", "destination": "/scrap-buyers.html" }
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/office-dismantling-bangalore.html",
+      "destination": "/office-dismantling-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/scrap-buyers.html",
+      "destination": "/scrap-buyers",
+      "permanent": true
+    }
   ],
   "headers": [
     {
